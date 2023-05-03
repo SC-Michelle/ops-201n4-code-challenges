@@ -1,8 +1,8 @@
 #!/bin/bash
 
-y="5826"
+y="8217"
 
-while [$y == "5026"]
+while [ $y == "8217" ]
 do
     ps aux
     echo "Choose a PID"
