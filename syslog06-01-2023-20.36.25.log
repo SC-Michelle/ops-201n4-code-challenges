@@ -1,0 +1,1471 @@
+Jun  1 18:55:56 michelle-labpc kernel: [    4.242908] r8169 0000:02:00.0 enp2s0: Link is Down
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]: Traceback (most recent call last):
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:     self.handle_state(iface_name,
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:     raise UnknownState(operational_state)
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]: UnknownState: n/a
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='enp2s0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]: Traceback (most recent call last):
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:     self.handle_state(iface_name,
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]:     raise UnknownState(operational_state)
+Jun  1 18:55:56 michelle-labpc networkd-dispatcher[783]: UnknownState: n/a
+Jun  1 18:55:56 michelle-labpc systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.1216] failed to open /run/network/ifstate
+Jun  1 18:55:56 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully called chroot.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully dropped privileges.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully limited resources.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Running.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Canary thread running.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 0 threads of 0 processes of 0 users.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Watchdog thread running.
+Jun  1 18:55:56 michelle-labpc systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.1270] modem-manager: ModemManager available
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.1487] manager: (wlan0): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Jun  1 18:55:56 michelle-labpc systemd-udevd[334]: Using default interface naming scheme 'v249'.
+Jun  1 18:55:56 michelle-labpc kernel: [    4.276564] usbcore: registered new interface driver rtl8xxxu
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.1526] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/ieee80211/phy0/rfkill1) (driver rtl8xxxu)
+Jun  1 18:55:56 michelle-labpc kernel: [    4.280648] rtl8xxxu 3-1:1.2 wlx8c8828200b8a: renamed from wlan0
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.1671] device (wlan0): interface index 3 renamed iface from 'wlan0' to 'wlx8c8828200b8a'
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.1710] device (wlx8c8828200b8a): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] AppArmor D-Bus mediation is enabled
+Jun  1 18:55:56 michelle-labpc systemd-udevd[333]: Using default interface naming scheme 'v249'.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=128 pid=986 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Virtual filesystem service...
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully made thread 982 of process 982 owned by '128' high priority at nice level -11.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 1 threads of 1 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.Daemon'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Virtual filesystem service.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully made thread 984 of process 984 owned by '128' high priority at nice level -11.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 2 threads of 2 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: message repeated 2 times: [ Supervising 2 threads of 2 processes of 1 users.]
+Jun  1 18:55:56 michelle-labpc wpa_supplicant[804]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface.P2PDevice dbus_property=P2PDeviceConfig getter failed
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.2280] device (wlx8c8828200b8a): supplicant interface state: internal-starting -> disconnected
+Jun  1 18:55:56 michelle-labpc NetworkManager[775]: <info>  [1685660156.2281] device (wlx8c8828200b8a): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully made thread 1000 of process 983 owned by '128' RT at priority 20.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 3 threads of 3 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 3 threads of 3 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully made thread 1022 of process 982 owned by '128' RT at priority 20.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 4 threads of 3 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc gnome-session[1007]: gnome-session-binary[1007]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+Jun  1 18:55:56 michelle-labpc gnome-session[1007]: gnome-session-binary[1007]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+Jun  1 18:55:56 michelle-labpc gnome-session-binary[1007]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+Jun  1 18:55:56 michelle-labpc gnome-session-binary[1007]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+Jun  1 18:55:56 michelle-labpc gnome-shell[1031]: Running GNOME Shell (using mutter 42.5) as a Wayland display server
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 4 threads of 3 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Successfully made thread 1037 of process 984 owned by '128' RT at priority 5.
+Jun  1 18:55:56 michelle-labpc rtkit-daemon[990]: Supervising 5 threads of 3 processes of 1 users.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.2' (uid=128 pid=986 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc avahi-daemon[770]: Server startup complete. Host name is michelle-labpc.local. Local service cookie is 2333642160.
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Sound Service.
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Tracker file system data miner...
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &DOWNLOAD. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &DOCUMENTS. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &MUSIC. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &PICTURES. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc tracker-miner-f[1048]: Unable to get XDG user directory path for special directory &VIDEOS. Ignoring this location.
+Jun  1 18:55:56 michelle-labpc gnome-shell[1031]: Device '/dev/dri/card0' prefers shadow buffer
+Jun  1 18:55:56 michelle-labpc gnome-shell[1031]: Added device '/dev/dri/card0' (i915) using atomic mode setting.
+Jun  1 18:55:56 michelle-labpc snapd[793]: overlord.go:272: Acquiring state lock file
+Jun  1 18:55:56 michelle-labpc snapd[793]: overlord.go:277: Acquired state lock file
+Jun  1 18:55:56 michelle-labpc snapd[793]: daemon.go:247: started snapd/2.59.2 (series 16; classic) ubuntu/22.04 (amd64) linux/5.19.0-42-generic.
+Jun  1 18:55:56 michelle-labpc kernel: [    4.718799] loop20: detected capacity change from 0 to 8
+Jun  1 18:55:56 michelle-labpc systemd[1]: tmp-syscheck\x2dmountpoint\x2d498599318.mount: Deactivated successfully.
+Jun  1 18:55:56 michelle-labpc snapd[793]: daemon.go:340: adjusting startup timeout by 1m25s (pessimistic estimate of 30s plus 5s per snap)
+Jun  1 18:55:56 michelle-labpc snapd[793]: backends.go:58: AppArmor status: apparmor is enabled and all features are available
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.9' (uid=128 pid=1048 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Virtual filesystem service - disk device monitor...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Virtual filesystem service - disk device monitor.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.9' (uid=128 pid=1048 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Virtual filesystem service - Apple File Conduit monitor.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.9' (uid=128 pid=1048 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating service name='org.gnome.OnlineAccounts' requested by ':1.12' (uid=128 pid=1094 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.13' (uid=128 pid=985 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting flatpak document portal service...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.14' (uid=128 pid=1107 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting sandboxed app permission store...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started sandboxed app permission store.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.freedesktop.portal.Documents'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started flatpak document portal service.
+Jun  1 18:55:56 michelle-labpc systemd[1]: Started Snap Daemon.
+Jun  1 18:55:56 michelle-labpc systemd[1]: Starting Wait until snapd is fully seeded...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.37' (uid=0 pid=793 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[1]: Starting Time & Date Service...
+Jun  1 18:55:56 michelle-labpc systemd[1]: Started xrdp daemon.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jun  1 18:55:56 michelle-labpc systemd[1]: Started Time & Date Service.
+Jun  1 18:55:56 michelle-labpc goa-daemon[1098]: goa-daemon version 3.44.0 starting
+Jun  1 18:55:56 michelle-labpc systemd[1]: Finished Wait until snapd is fully seeded.
+Jun  1 18:55:56 michelle-labpc systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating service name='org.gnome.Identity' requested by ':1.16' (uid=128 pid=1098 comm="/usr/libexec/goa-daemon " label="unconfined")
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gnome.OnlineAccounts'
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.9' (uid=128 pid=1048 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Virtual filesystem service - digital camera monitor...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gnome.Identity'
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Virtual filesystem service - digital camera monitor.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.9' (uid=128 pid=1048 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[965]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Jun  1 18:55:56 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Jun  1 18:55:56 michelle-labpc systemd[965]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Jun  1 18:55:56 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.40' (uid=128 pid=1048 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:55:56 michelle-labpc systemd[1]: Starting Daemon for power management...
+Jun  1 18:55:56 michelle-labpc gnome-shell[1031]: Created gbm renderer for '/dev/dri/card0'
+Jun  1 18:55:56 michelle-labpc gnome-shell[1031]: Boot VGA GPU /dev/dri/card0 selected as primary
+Jun  1 18:55:56 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jun  1 18:55:56 michelle-labpc systemd[1]: Started Daemon for power management.
+Jun  1 18:55:57 michelle-labpc snapd-desktop-integration.snapd-desktop-integration[985]: Sorry, home directories outside of /home needs configuration.
+Jun  1 18:55:57 michelle-labpc snapd-desktop-integration.snapd-desktop-integration[985]: See https://forum.snapcraft.io/t/11209 for details.
+Jun  1 18:55:57 michelle-labpc systemd[965]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+Jun  1 18:55:57 michelle-labpc systemd[965]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Jun  1 18:55:57 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+Jun  1 18:55:57 michelle-labpc systemd[965]: Started Tracker file system data miner.
+Jun  1 18:55:57 michelle-labpc systemd[965]: Started Tracker metadata extractor.
+Jun  1 18:55:57 michelle-labpc systemd[965]: Reached target Main User Target.
+Jun  1 18:55:57 michelle-labpc systemd[965]: Startup finished in 1.215s.
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.a11y.Bus'
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Using public X11 display :1024, (using :1025 for managed services)
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Using Wayland display name 'wayland-0'
+Jun  1 18:55:57 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.2' (uid=128 pid=986 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Jun  1 18:55:57 michelle-labpc systemd[965]: Starting Virtual filesystem metadata service...
+Jun  1 18:55:57 michelle-labpc dbus-daemon[989]: [session uid=128 pid=989] Successfully activated service 'org.gtk.vfs.Metadata'
+Jun  1 18:55:57 michelle-labpc org.gnome.Shell.desktop[1204]: (WW) Option "-listen" for file descriptors is deprecated
+Jun  1 18:55:57 michelle-labpc org.gnome.Shell.desktop[1204]: Please use "-listenfd" instead.
+Jun  1 18:55:57 michelle-labpc org.gnome.Shell.desktop[1204]: (WW) Option "-listen" for file descriptors is deprecated
+Jun  1 18:55:57 michelle-labpc org.gnome.Shell.desktop[1204]: Please use "-listenfd" instead.
+Jun  1 18:55:57 michelle-labpc systemd[965]: Started Virtual filesystem metadata service.
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3655] policy: auto-activating connection 'Kanye4President' (291f4de8-7dd3-49cc-9a36-a20f924900de)
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3667] device (wlx8c8828200b8a): Activation: starting connection 'Kanye4President' (291f4de8-7dd3-49cc-9a36-a20f924900de)
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3670] device (wlx8c8828200b8a): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3676] manager: NetworkManager state is now CONNECTING
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3679] device (wlx8c8828200b8a): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3687] device (wlx8c8828200b8a): Activation: (wifi) access point 'Kanye4President' has security, but secrets are required.
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3688] device (wlx8c8828200b8a): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3690] sup-iface[d6c4e1cbc4215016,0,wlx8c8828200b8a]: wps: type pbc start...
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3701] device (wlx8c8828200b8a): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3704] device (wlx8c8828200b8a): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: WPS-PBC-ACTIVE 
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3709] device (wlx8c8828200b8a): Activation: (wifi) connection 'Kanye4President' has security, and secrets exist.  No new secrets needed.
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3711] Config: added 'ssid' value 'Kanye4President'
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3712] Config: added 'scan_ssid' value '1'
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3713] Config: added 'bgscan' value 'simple:30:-70:86400'
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3714] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3715] Config: added 'auth_alg' value 'OPEN'
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3716] Config: added 'psk' value '<hidden>'
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: WPS-CANCEL 
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.3729] device (wlx8c8828200b8a): supplicant interface state: disconnected -> scanning
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: SME: Trying to authenticate with b4:b0:24:d0:d2:7c (SSID='Kanye4President' freq=2417 MHz)
+Jun  1 18:55:57 michelle-labpc kernel: [    5.541505] wlx8c8828200b8a: authenticate with b4:b0:24:d0:d2:7c
+Jun  1 18:55:57 michelle-labpc kernel: [    5.541514] wlx8c8828200b8a: bad VHT capabilities, disabling VHT
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4180] device (wlx8c8828200b8a): supplicant interface state: scanning -> authenticating
+Jun  1 18:55:57 michelle-labpc kernel: [    5.543442] wlx8c8828200b8a: send auth to b4:b0:24:d0:d2:7c (try 1/3)
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: Trying to associate with b4:b0:24:d0:d2:7c (SSID='Kanye4President' freq=2417 MHz)
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4201] device (wlx8c8828200b8a): supplicant interface state: authenticating -> associating
+Jun  1 18:55:57 michelle-labpc kernel: [    5.547592] wlx8c8828200b8a: authenticated
+Jun  1 18:55:57 michelle-labpc kernel: [    5.550648] wlx8c8828200b8a: associate with b4:b0:24:d0:d2:7c (try 1/3)
+Jun  1 18:55:57 michelle-labpc kernel: [    5.558254] wlx8c8828200b8a: RX AssocResp from b4:b0:24:d0:d2:7c (capab=0x1431 status=0 aid=4)
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: Associated with b4:b0:24:d0:d2:7c
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jun  1 18:55:57 michelle-labpc kernel: [    5.559046] usb 3-1: rtl8xxxu_bss_info_changed: HT supported
+Jun  1 18:55:57 michelle-labpc kernel: [    5.559969] wlx8c8828200b8a: associated
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4376] device (wlx8c8828200b8a): supplicant interface state: associating -> 4way_handshake
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: WPA: Key negotiation completed with b4:b0:24:d0:d2:7c [PTK=CCMP GTK=CCMP]
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-CONNECTED - Connection to b4:b0:24:d0:d2:7c completed [id=0 id_str=]
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4926] device (wlx8c8828200b8a): supplicant interface state: 4way_handshake -> completed
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4926] device (wlx8c8828200b8a): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Kanye4President"
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4927] device (wlx8c8828200b8a): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.4932] dhcp4 (wlx8c8828200b8a): activation: beginning transaction (timeout in 45 seconds)
+Jun  1 18:55:57 michelle-labpc avahi-daemon[770]: Joining mDNS multicast group on interface wlx8c8828200b8a.IPv6 with address fe80::a6d6:3f0b:e804:7a3d.
+Jun  1 18:55:57 michelle-labpc avahi-daemon[770]: New relevant interface wlx8c8828200b8a.IPv6 for mDNS.
+Jun  1 18:55:57 michelle-labpc avahi-daemon[770]: Registering new address record for fe80::a6d6:3f0b:e804:7a3d on wlx8c8828200b8a.*.
+Jun  1 18:55:57 michelle-labpc kernel: [    5.620007] IPv6: ADDRCONF(NETDEV_CHANGE): wlx8c8828200b8a: link becomes ready
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5411] dhcp4 (wlx8c8828200b8a): state changed new lease, address=192.168.0.104
+Jun  1 18:55:57 michelle-labpc avahi-daemon[770]: Joining mDNS multicast group on interface wlx8c8828200b8a.IPv4 with address 192.168.0.104.
+Jun  1 18:55:57 michelle-labpc avahi-daemon[770]: New relevant interface wlx8c8828200b8a.IPv4 for mDNS.
+Jun  1 18:55:57 michelle-labpc avahi-daemon[770]: Registering new address record for 192.168.0.104 on wlx8c8828200b8a.IPv4.
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5420] device (wlx8c8828200b8a): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5439] device (wlx8c8828200b8a): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5441] device (wlx8c8828200b8a): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5443] manager: NetworkManager state is now CONNECTED_LOCAL
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5447] manager: NetworkManager state is now CONNECTED_SITE
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5448] policy: set 'Kanye4President' (wlx8c8828200b8a) as default for IPv4 routing and DNS
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.5452] device (wlx8c8828200b8a): Activation: successful, device activated.
+Jun  1 18:55:57 michelle-labpc systemd-resolved[659]: wlx8c8828200b8a: Bus client set default route setting: yes
+Jun  1 18:55:57 michelle-labpc systemd-resolved[659]: wlx8c8828200b8a: Bus client set DNS server list to: 192.168.0.1
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Will monitor session c1
+Jun  1 18:55:57 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.35' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc systemd[1]: Starting Locale Service...
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Jun  1 18:55:57 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.locale1'
+Jun  1 18:55:57 michelle-labpc systemd[1]: Started Locale Service.
+Jun  1 18:55:57 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-44 noise=9999 txrate=1000
+Jun  1 18:55:57 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.35' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc systemd[1]: Starting Location Lookup Service...
+Jun  1 18:55:57 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.35' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc systemd[1]: Starting PackageKit Daemon...
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Extension ding@rastersoft.com already installed in /usr/share/gnome-shell/extensions/ding@rastersoft.com. /usr/share/gnome-shell/extensions/ding@rastersoft.com will not be loaded
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Extension ubuntu-appindicators@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com will not be loaded
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Extension ubuntu-dock@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com will not be loaded
+Jun  1 18:55:57 michelle-labpc PackageKit: daemon start
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1198]: dbus-daemon[1198]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:57 michelle-labpc xrdp[935]: [INFO ] starting xrdp with pid 935
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1198]: dbus-daemon[1198]: Successfully activated service 'org.a11y.atspi.Registry'
+Jun  1 18:55:57 michelle-labpc xrdp[935]: [INFO ] address [0.0.0.0] port [3389] mode 1
+Jun  1 18:55:57 michelle-labpc xrdp[935]: [INFO ] listening to port 3389 on 0.0.0.0
+Jun  1 18:55:57 michelle-labpc org.gnome.Shell.desktop[1031]: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm3/.config/mutter/sessions/10c9421fcd6205acc8168566015631209300000010070000.ms”: No such file or directory
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1256]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jun  1 18:55:57 michelle-labpc xrdp[935]: [INFO ] xrdp_listen_pp done
+Jun  1 18:55:57 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jun  1 18:55:57 michelle-labpc systemd[1]: Started PackageKit Daemon.
+Jun  1 18:55:57 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Jun  1 18:55:57 michelle-labpc systemd[1]: Started Location Lookup Service.
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: JS ERROR: TypeError: this._managerProxy is undefined#012_onGeoclueVanished@resource:///org/gnome/shell/ui/status/location.js:169:9
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.8981] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun  1 18:55:57 michelle-labpc kernel: [    6.047829] rfkill: input handler disabled
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.freedesktop.systemd1' requested by ':1.10' (uid=128 pid=1260 comm="/usr/libexec/gsd-sharing " label="unconfined")
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Jun  1 18:55:57 michelle-labpc gsd-sharing[1260]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Jun  1 18:55:57 michelle-labpc gsd-sharing[1260]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Jun  1 18:55:57 michelle-labpc NetworkManager[775]: <info>  [1685660157.9351] agent-manager: agent[1bc9290e789f4c4e,:1.35/org.gnome.Shell.NetworkAgent/128]: agent registered
+Jun  1 18:55:57 michelle-labpc gnome-shell[1031]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.gnome.Shell.Notifications'
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.gtk.vfs.Daemon' requested by ':1.23' (uid=128 pid=1273 comm="ibus-daemon --panel disable " label="unconfined")
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.gtk.vfs.Daemon'
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.freedesktop.portal.IBus' requested by ':1.23' (uid=128 pid=1273 comm="ibus-daemon --panel disable " label="unconfined")
+Jun  1 18:55:57 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.freedesktop.portal.IBus'
+Jun  1 18:55:58 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.35' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:55:58 michelle-labpc systemd[1]: Starting Fingerprint Authentication Daemon...
+Jun  1 18:55:58 michelle-labpc gnome-shell[1031]: ATK Bridge is disabled but a11y has already been enabled.
+Jun  1 18:55:58 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jun  1 18:55:58 michelle-labpc systemd[1]: Started Fingerprint Authentication Daemon.
+Jun  1 18:55:58 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.54' (uid=128 pid=1271 comm="/usr/libexec/gsd-color " label="unconfined")
+Jun  1 18:55:58 michelle-labpc systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Jun  1 18:55:58 michelle-labpc colord[1400]: failed to get edid data: EDID length is too small
+Jun  1 18:55:58 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Jun  1 18:55:58 michelle-labpc systemd[1]: Started Manage, Install and Generate Color Profiles.
+Jun  1 18:55:58 michelle-labpc spice-vdagent[1405]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+Jun  1 18:55:58 michelle-labpc gnome-session-binary[1007]: Entering running state
+Jun  1 18:55:58 michelle-labpc xbrlapi.desktop[1408]: openConnection: connect: No such file or directory
+Jun  1 18:55:58 michelle-labpc xbrlapi.desktop[1408]: cannot connect to braille devices daemon brltty at :0
+Jun  1 18:55:58 michelle-labpc gnome-shell[1031]: JS ERROR: Failed to initialize fprintd service: Gio.IOErrorEnum: GDBus.Error:net.reactivated.Fprint.Error.NoSuchDevice: No devices available#012asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:114:23
+Jun  1 18:55:58 michelle-labpc gsd-media-keys[1282]: Failed to grab accelerator for keybinding settings:hibernate
+Jun  1 18:55:58 michelle-labpc gsd-media-keys[1282]: Failed to grab accelerator for keybinding settings:playback-repeat
+Jun  1 18:55:58 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.gnome.ScreenSaver' requested by ':1.24' (uid=128 pid=1297 comm="/usr/libexec/gsd-power " label="unconfined")
+Jun  1 18:55:58 michelle-labpc org.gnome.Shell.desktop[1414]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Jun  1 18:55:58 michelle-labpc org.gnome.Shell.desktop[1414]: > Warning:          Unsupported maximum keycode 708, clipping.
+Jun  1 18:55:58 michelle-labpc org.gnome.Shell.desktop[1414]: >                   X11 cannot support keycodes above 255.
+Jun  1 18:55:58 michelle-labpc org.gnome.Shell.desktop[1414]: Errors from xkbcomp are not fatal to the X server
+Jun  1 18:55:58 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Activating service name='org.freedesktop.portal.IBus' requested by ':1.35' (uid=128 pid=1409 comm="ibus-daemon --panel disable -r --xim " label="unconfined")
+Jun  1 18:55:58 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.freedesktop.portal.IBus'
+Jun  1 18:55:58 michelle-labpc /usr/libexec/gdm-wayland-session[1005]: dbus-daemon[1005]: [session uid=128 pid=1005] Successfully activated service 'org.gnome.ScreenSaver'
+Jun  1 18:55:58 michelle-labpc gsd-color[1271]: failed to get edid: unable to get EDID for output
+Jun  1 18:55:58 michelle-labpc gsd-color[1271]: unable to get EDID for xrandr-VGA-1: unable to get EDID for output
+Jun  1 18:55:58 michelle-labpc ModemManager[893]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.3/0000:02:00.0': not supported by any plugin
+Jun  1 18:55:58 michelle-labpc ModemManager[893]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.0/usb3/3-1': not supported by any plugin
+Jun  1 18:55:58 michelle-labpc gnome-shell[1031]: Registering session with GDM
+Jun  1 18:55:58 michelle-labpc systemd[1]: Received SIGRTMIN+21 from PID 354 (plymouthd).
+Jun  1 18:55:58 michelle-labpc systemd[1]: Finished Hold until boot process finishes up.
+Jun  1 18:55:58 michelle-labpc systemd[1]: Starting Set console scheme...
+Jun  1 18:55:58 michelle-labpc systemd[1]: Finished Set console scheme.
+Jun  1 18:55:58 michelle-labpc systemd[1]: Created slice Slice /system/getty.
+Jun  1 18:55:59 michelle-labpc avahi-daemon[770]: Leaving mDNS multicast group on interface wlx8c8828200b8a.IPv6 with address fe80::a6d6:3f0b:e804:7a3d.
+Jun  1 18:55:59 michelle-labpc avahi-daemon[770]: Joining mDNS multicast group on interface wlx8c8828200b8a.IPv6 with address fd56:2251:ce4:43c8:e58b:68b3:ef1d:e642.
+Jun  1 18:55:59 michelle-labpc avahi-daemon[770]: Registering new address record for fd56:2251:ce4:43c8:e58b:68b3:ef1d:e642 on wlx8c8828200b8a.*.
+Jun  1 18:55:59 michelle-labpc avahi-daemon[770]: Withdrawing address record for fe80::a6d6:3f0b:e804:7a3d on wlx8c8828200b8a.
+Jun  1 18:56:00 michelle-labpc systemd[1]: dmesg.service: Deactivated successfully.
+Jun  1 18:56:01 michelle-labpc systemd[1]: systemd-rfkill.service: Deactivated successfully.
+Jun  1 18:56:01 michelle-labpc avahi-daemon[770]: Registering new address record for fd56:2251:ce4:43c8:d562:b714:a394:9000 on wlx8c8828200b8a.*.
+Jun  1 18:56:02 michelle-labpc NetworkManager[775]: <info>  [1685660162.1183] manager: startup complete
+Jun  1 18:56:02 michelle-labpc systemd[1]: Finished Network Manager Wait Online.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Reached target Network is Online.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Started Download data for packages that failed at package install time.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Reached target Timer Units.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Started Make remote CUPS printers available locally.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+Jun  1 18:56:02 michelle-labpc systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Starting LSB: VirtualBox Linux kernel module...
+Jun  1 18:56:02 michelle-labpc systemd[1]: Started crash report submission.
+Jun  1 18:56:02 michelle-labpc systemd[1]: kerneloops.service: Found left-over process 1501 (kerneloops) in control group while starting unit. Ignoring.
+Jun  1 18:56:02 michelle-labpc systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Jun  1 18:56:02 michelle-labpc virtualbox[1497]:  * Loading VirtualBox kernel modules...
+Jun  1 18:56:02 michelle-labpc whoopsie[1498]: [18:56:02] Using lock path: /var/lock/whoopsie/lock
+Jun  1 18:56:02 michelle-labpc systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+Jun  1 18:56:02 michelle-labpc systemd[1]: whoopsie.service: Deactivated successfully.
+Jun  1 18:56:02 michelle-labpc kernel: [   10.277763] vboxdrv: loading out-of-tree module taints kernel.
+Jun  1 18:56:02 michelle-labpc kernel: [   10.277939] vboxdrv: module verification failed: signature and/or required key missing - tainting kernel
+Jun  1 18:56:02 michelle-labpc kernel: [   10.285766] vboxdrv: Found 4 processor cores
+Jun  1 18:56:02 michelle-labpc kernel: [   10.307017] vboxdrv: TSC mode is Invariant, tentative frequency 3192596777 Hz
+Jun  1 18:56:02 michelle-labpc kernel: [   10.307020] vboxdrv: Successfully loaded version 6.1.38_Ubuntu r153438 (interface 0x00320000)
+Jun  1 18:56:02 michelle-labpc kernel: [   10.313624] VBoxNetFlt: Successfully started.
+Jun  1 18:56:02 michelle-labpc virtualbox[1497]:    ...done.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Started LSB: VirtualBox Linux kernel module.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Reached target Multi-User System.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Reached target Graphical Interface.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Starting Record Runlevel Change in UTMP...
+Jun  1 18:56:02 michelle-labpc kernel: [   10.319101] VBoxNetAdp: Successfully started.
+Jun  1 18:56:02 michelle-labpc systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Finished Record Runlevel Change in UTMP.
+Jun  1 18:56:02 michelle-labpc systemd[1]: Startup finished in 2.115s (kernel) + 8.219s (userspace) = 10.334s.
+Jun  1 18:56:07 michelle-labpc systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jun  1 18:56:25 michelle-labpc systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Jun  1 18:56:25 michelle-labpc systemd-timesyncd[660]: Initial synchronization to time server 185.125.190.58:123 (ntp.ubuntu.com).
+Jun  1 18:56:28 michelle-labpc systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jun  1 18:56:28 michelle-labpc systemd[1]: systemd-localed.service: Deactivated successfully.
+Jun  1 18:56:28 michelle-labpc systemd[1]: fprintd.service: Deactivated successfully.
+Jun  1 18:56:31 michelle-labpc systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jun  1 18:56:33 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.35' (uid=128 pid=1031 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:56:33 michelle-labpc systemd[1]: Starting Fingerprint Authentication Daemon...
+Jun  1 18:56:33 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'net.reactivated.Fprint'
+Jun  1 18:56:33 michelle-labpc systemd[1]: Started Fingerprint Authentication Daemon.
+Jun  1 18:56:33 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-36 noise=9999 txrate=72200
+Jun  1 18:56:47 michelle-labpc systemd[1]: Created slice User Slice of UID 1000.
+Jun  1 18:56:47 michelle-labpc systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jun  1 18:56:47 michelle-labpc systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jun  1 18:56:47 michelle-labpc systemd[1]: Starting User Manager for UID 1000...
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Queued start job for default target Main User Target.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Created slice User Application Slice.
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] AppArmor D-Bus mediation is enabled
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Created slice User Background Tasks Slice.
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1000 pid=1557 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Created slice User Core Session Slice.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Successfully made thread 1553 of process 1553 owned by '1000' high priority at nice level -11.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started Pending report trigger for Ubuntu Report.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 6 threads of 4 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Reached target Paths.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 6 threads of 4 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Reached target Timers.
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.Daemon'
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting D-Bus User Message Bus Socket...
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.3' (uid=1000 pid=1556 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on GnuPG network certificate management daemon.
+Jun  1 18:56:47 michelle-labpc kernel: [   55.975609] kauditd_printk_skb: 43 callbacks suppressed
+Jun  1 18:56:47 michelle-labpc kernel: [   55.975612] audit: type=1400 audit(1685660207.834:54): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=1556 comm="snap-confine" capability=12  capname="net_admin"
+Jun  1 18:56:47 michelle-labpc kernel: [   55.975622] audit: type=1400 audit(1685660207.834:55): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=1556 comm="snap-confine" capability=38  capname="perfmon"
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.5' (uid=1000 pid=1599 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.portal.Documents'
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on PipeWire Multimedia System Socket.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on debconf communication socket.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on Sound System.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on REST API socket for snapd user session agent.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Listening on D-Bus User Message Bus Socket.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Reached target Sockets.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Reached target Basic System.
+Jun  1 18:56:47 michelle-labpc systemd[1]: Started User Manager for UID 1000.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started PipeWire Multimedia Service.
+Jun  1 18:56:47 michelle-labpc systemd[1]: Started Session 2 of User michelle.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started PipeWire Media Session Manager.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting Sound Service...
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting Tracker metadata extractor...
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started D-Bus User Message Bus.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting Virtual filesystem service...
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started Virtual filesystem service.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting flatpak document portal service...
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting sandboxed app permission store...
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started sandboxed app permission store.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started flatpak document portal service.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Successfully made thread 1555 of process 1555 owned by '1000' high priority at nice level -11.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 7 threads of 5 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: message repeated 2 times: [ Supervising 7 threads of 5 processes of 2 users.]
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Successfully made thread 1586 of process 1554 owned by '1000' RT at priority 20.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 8 threads of 6 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 8 threads of 6 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Successfully made thread 1622 of process 1553 owned by '1000' RT at priority 20.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 9 threads of 6 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1000 pid=1557 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting Tracker file system data miner...
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 9 threads of 6 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Successfully made thread 1634 of process 1555 owned by '1000' RT at priority 5.
+Jun  1 18:56:47 michelle-labpc rtkit-daemon[990]: Supervising 10 threads of 6 processes of 2 users.
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started Sound Service.
+Jun  1 18:56:47 michelle-labpc pulseaudio[1555]: Could not find org.bluez.BatteryProviderManager1.RegisterBatteryProvider(), is bluetoothd started with experimental features enabled (-E flag)?
+Jun  1 18:56:47 michelle-labpc kernel: [   56.072920] Bluetooth: RFCOMM TTY layer initialized
+Jun  1 18:56:47 michelle-labpc kernel: [   56.072935] Bluetooth: RFCOMM socket layer initialized
+Jun  1 18:56:47 michelle-labpc kernel: [   56.072939] Bluetooth: RFCOMM ver 1.11
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSink/sbc
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSource/sbc
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSink/sbc_xq_453
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSource/sbc_xq_453
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSink/sbc_xq_512
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSource/sbc_xq_512
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSink/sbc_xq_552
+Jun  1 18:56:47 michelle-labpc bluetoothd[771]: Endpoint registered: sender=:1.77 path=/MediaEndpoint/A2DPSource/sbc_xq_552
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.9' (uid=1000 pid=1630 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting Virtual filesystem service - disk device monitor...
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Started Virtual filesystem service - disk device monitor.
+Jun  1 18:56:47 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.9' (uid=1000 pid=1630 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:56:47 michelle-labpc systemd[1546]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Virtual filesystem service - Apple File Conduit monitor.
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.9' (uid=1000 pid=1630 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.OnlineAccounts' requested by ':1.13' (uid=1000 pid=1650 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Jun  1 18:56:48 michelle-labpc goa-daemon[1654]: goa-daemon version 3.44.0 starting
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.Identity' requested by ':1.14' (uid=1000 pid=1654 comm="/usr/libexec/goa-daemon " label="unconfined")
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.OnlineAccounts'
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.9' (uid=1000 pid=1630 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Virtual filesystem service - digital camera monitor...
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.Identity'
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Virtual filesystem service - digital camera monitor.
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.9' (uid=1000 pid=1630 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Jun  1 18:56:48 michelle-labpc kernel: [   56.215925] rfkill: input handler enabled
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Created slice Slice /app/gnome-session-manager.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Path trigger for Apport crash notifications.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Path trigger for new release of Ubuntu notifications.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Reached target GNOME Wayland Session.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Reached target GNOME Shell.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Condition check resulted in GNOME Initial Setup Copy Worker being skipped.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Start gnome-keyring as SSH agent...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Start gnome-keyring for the Secrets Service, and PKCS #11...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting GNOME Remote Desktop...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Monitor Session leader for GNOME Session...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Session Migration...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Rewrite dynamic launcher portal entries...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Monitor Session leader for GNOME Session.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Finished Session Migration.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Finished Rewrite dynamic launcher portal entries.
+Jun  1 18:56:48 michelle-labpc gnome-keyring-daemon[1737]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Finished Start gnome-keyring for the Secrets Service, and PKCS #11.
+Jun  1 18:56:48 michelle-labpc sh[1742]: dbus-update-activation-environment: setting SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Jun  1 18:56:48 michelle-labpc sh[1742]: dbus-update-activation-environment: setting SSH_AGENT_LAUNCHER=gnome-keyring
+Jun  1 18:56:48 michelle-labpc sh[1728]: /bin/sh: 1: initctl: not found
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Finished Start gnome-keyring as SSH agent.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started OpenSSH Agent.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Reached target Session services which should run early before the graphical session is brought up.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Reached target Tasks to be run before GNOME Session starts.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting GNOME Session Manager (session: ubuntu)...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started GNOME Remote Desktop.
+Jun  1 18:56:48 michelle-labpc gnome-keyring-ssh.desktop[1763]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Jun  1 18:56:48 michelle-labpc gnome-session[1744]: gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1761: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1761 does not exist.
+Jun  1 18:56:48 michelle-labpc gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1761: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1761 does not exist.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 18:56:48 michelle-labpc gnome-keyring-secrets.desktop[1765]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Jun  1 18:56:48 michelle-labpc gnome-keyring-pkcs11.desktop[1766]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started GNOME Session Manager (session: ubuntu).
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Reached target GNOME Session Manager is ready.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting GNOME Shell on Wayland...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting GNOME Shell on X11...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Condition check resulted in GNOME Shell on X11 being skipped.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 1.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Stopped GNOME Shell on X11.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting GNOME Shell on X11...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Condition check resulted in GNOME Shell on X11 being skipped.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 2.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Stopped GNOME Shell on X11.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting GNOME Shell on X11...
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Condition check resulted in GNOME Shell on X11 being skipped.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Scheduled restart job, restart counter is at 3.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Stopped GNOME Shell on X11.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Start request repeated too quickly.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started GNOME Shell on X11.
+Jun  1 18:56:48 michelle-labpc gnome-session[1744]: gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1767 does not exist.
+Jun  1 18:56:48 michelle-labpc gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1767 does not exist.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Running GNOME Shell (using mutter 42.5) as a Wayland display server
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Tracker file system data miner.
+Jun  1 18:56:48 michelle-labpc rtkit-daemon[990]: Supervising 10 threads of 6 processes of 2 users.
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Device '/dev/dri/card0' prefers shadow buffer
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Added device '/dev/dri/card0' (i915) using atomic mode setting.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Started Tracker metadata extractor.
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Reached target Main User Target.
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Created gbm renderer for '/dev/dri/card0'
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Boot VGA GPU /dev/dri/card0 selected as primary
+Jun  1 18:56:48 michelle-labpc rtkit-daemon[990]: Successfully made thread 1785 of process 1555 owned by '1000' RT at priority 5.
+Jun  1 18:56:48 michelle-labpc rtkit-daemon[990]: Supervising 11 threads of 6 processes of 2 users.
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Using public X11 display :0, (using :1 for managed services)
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Using Wayland display name 'wayland-0'
+Jun  1 18:56:48 michelle-labpc snapd-desktop-i[1829]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+Jun  1 18:56:48 michelle-labpc kernel: [   56.877926] audit: type=1326 audit(1685660208.734:56): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=1829 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f3763c6ba3d code=0x50000
+Jun  1 18:56:48 michelle-labpc snapd-desktop-i[1829]: Checking session /org/freedesktop/login1/session/_32...
+Jun  1 18:56:48 michelle-labpc snapd-desktop-i[1829]: Is a desktop session! Forcing a reload.
+Jun  1 18:56:48 michelle-labpc snapd-desktop-i[1829]: Checking session /org/freedesktop/login1/session/c1...
+Jun  1 18:56:48 michelle-labpc snapd-desktop-i[1829]: Loop exited. Forcing reload.
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Jun  1 18:56:48 michelle-labpc gnome-shell[1772]: Will monitor session 2
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.36' (uid=1000 pid=1772 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:56:48 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.38' (uid=1000 pid=1834 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Jun  1 18:56:48 michelle-labpc systemd[1546]: Starting Evolution source registry...
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started Evolution source registry.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.36' (uid=1000 pid=1772 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting User preferences database...
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'ca.desrt.dconf'
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started User preferences database.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.38' (uid=1000 pid=1834 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting Evolution calendar service...
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Telepathy is not available, chat integration will be disabled.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.Shell.CalendarServer'
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started Evolution calendar service.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.41' (uid=1000 pid=1851 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting Evolution address book service...
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started Evolution address book service.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.freedesktop.FileManager1' requested by ':1.36' (uid=1000 pid=1772 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.Shell.Notifications' requested by ':1.36' (uid=1000 pid=1772 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:56:49 michelle-labpc at-spi-dbus-bus.desktop[1779]: dbus-daemon[1779]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=1772 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 18:56:49 michelle-labpc at-spi-dbus-bus.desktop[1779]: dbus-daemon[1779]: Successfully activated service 'org.a11y.atspi.Registry'
+Jun  1 18:56:49 michelle-labpc at-spi-dbus-bus.desktop[1889]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME Shell on Wayland.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME Session is initialized.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: GNOME session X11 services is inactive.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Dependency failed for GNOME XSettings service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME Session (session: ubuntu).
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME XSettings target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting Signal initialization done to GNOME Session Manager...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting IBus Daemon for GNOME...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME accessibility service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME color management service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME date & time service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME maintenance of expirable data service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME keyboard configuration service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME keyboard shortcuts service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME power management service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME printer notifications service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME RFKill support service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME FreeDesktop screensaver service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME file sharing service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME smartcard service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME sound sample caching service...
+Jun  1 18:56:49 michelle-labpc spice-vdagent[1926]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting GNOME Wacom tablet support service...
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Finished Signal initialization done to GNOME Session Manager.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME maintenance of expirable data service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME maintenance of expirable data target.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.Shell.Notifications'
+Jun  1 18:56:49 michelle-labpc gnome-session-binary[1744]: Entering running state
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started IBus Daemon for GNOME.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.freedesktop.portal.IBus' requested by ':1.53' (uid=1000 pid=1906 comm="/usr/bin/ibus-daemon --panel disable " label="unconfined")
+Jun  1 18:56:49 michelle-labpc gnome-session[1744]: gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1926: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1926 does not exist.
+Jun  1 18:56:49 michelle-labpc gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1926: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1926 does not exist.
+Jun  1 18:56:49 michelle-labpc at-spi2-registr[1889]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+Jun  1 18:56:49 michelle-labpc at-spi2-registr[1889]: Unable to register client with session manager
+Jun  1 18:56:49 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.89' (uid=1000 pid=1919 comm="/usr/libexec/gsd-rfkill " label="unconfined")
+Jun  1 18:56:49 michelle-labpc systemd[1]: Starting Hostname Service...
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.portal.IBus'
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME file sharing service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME smartcard service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME accessibility service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME date & time service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME FreeDesktop screensaver service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME sound sample caching service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: message repeated 5 times: [ Started Application launched by gnome-session-binary.]
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME accessibility target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME date & time target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME FreeDesktop screensaver target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME file sharing target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME smartcard target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME sound sample caching target.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME printer notifications service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME printer notifications target.
+Jun  1 18:56:49 michelle-labpc gnome-session[1744]: gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1955: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1955 does not exist.
+Jun  1 18:56:49 michelle-labpc gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1955: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1955 does not exist.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started snap.snap-store.ubuntu-software.998c08a9-c6b8-4d39-9cf5-9779036f68c2.scope.
+Jun  1 18:56:49 michelle-labpc gnome-session[1744]: gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1977: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1977 does not exist.
+Jun  1 18:56:49 michelle-labpc gnome-session-binary[1744]: GnomeDesktop-WARNING: Could not create transient scope for PID 1977: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1977 does not exist.
+Jun  1 18:56:49 michelle-labpc kernel: [   57.631798] audit: type=1400 audit(1685660209.489:57): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=2046 comm="snap-confine" capability=12  capname="net_admin"
+Jun  1 18:56:49 michelle-labpc kernel: [   57.631950] audit: type=1400 audit(1685660209.489:58): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/19122/usr/lib/snapd/snap-confine" pid=2046 comm="snap-confine" capability=38  capname="perfmon"
+Jun  1 18:56:49 michelle-labpc systemd[1]: tmp-snap.rootfs_KpS1MO.mount: Deactivated successfully.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jun  1 18:56:49 michelle-labpc NetworkManager[775]: <info>  [1685660209.5137] agent-manager: agent[3089124939e6919b,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jun  1 18:56:49 michelle-labpc systemd[1]: Started Hostname Service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME RFKill support service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME RFKill support target.
+Jun  1 18:56:49 michelle-labpc kernel: [   57.656585] rfkill: input handler disabled
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jun  1 18:56:49 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Started GNOME keyboard shortcuts service.
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Reached target GNOME keyboard shortcuts target.
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.45' (uid=1000 pid=1874 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting Portal service...
+Jun  1 18:56:49 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.76' (uid=1000 pid=2148 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Jun  1 18:56:49 michelle-labpc systemd[1546]: Starting Portal service (GNOME implementation)...
+Jun  1 18:56:49 michelle-labpc gsd-media-keys[1912]: Failed to grab accelerator for keybinding settings:hibernate
+Jun  1 18:56:49 michelle-labpc gsd-media-keys[1912]: Failed to grab accelerator for keybinding settings:playback-repeat
+Jun  1 18:56:50 michelle-labpc gnome-remote-desktop-daemon[1731]: Cannot load libcuda.so.1
+Jun  1 18:56:50 michelle-labpc gnome-remote-desktop-daemon[1731]: Cannot load libnvidia-encode.so.1
+Jun  1 18:56:50 michelle-labpc gnome-remote-de[1731]: Failed to start RDP server: Error binding to address [::]:3389: Address already in use
+Jun  1 18:56:50 michelle-labpc gnome-remote-de[1731]: VNC server started
+Jun  1 18:56:50 michelle-labpc kernel: [   58.270323] audit: type=1326 audit(1685660210.125:59): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2046 comm="snap-store" exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f61bae71a3d code=0x50000
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started GNOME keyboard configuration service.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target GNOME keyboard configuration target.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started GNOME Wacom tablet support service.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target GNOME Wacom tablet support target.
+Jun  1 18:56:50 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.99' (uid=1000 pid=1910 comm="/usr/libexec/gsd-keyboard " label="unconfined")
+Jun  1 18:56:50 michelle-labpc systemd[1]: Starting Locale Service...
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.72' (uid=1000 pid=2092 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started GNOME color management service.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started GNOME power management service.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Created slice Slice /app/org.gnome.Terminal.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target GNOME color management target.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target GNOME power management target.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target GNOME Session.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target GNOME Wayland Session (session: ubuntu).
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Reached target Current graphical user session.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Condition check resulted in GNOME Initial Setup being skipped.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Starting GNOME Terminal Server...
+Jun  1 18:56:50 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.locale1'
+Jun  1 18:56:50 michelle-labpc systemd[1]: Started Locale Service.
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.ScreenSaver' requested by ':1.64' (uid=1000 pid=1913 comm="/usr/libexec/gsd-power " label="unconfined")
+Jun  1 18:56:50 michelle-labpc gsd-color[1904]: failed to get edid: unable to get EDID for output
+Jun  1 18:56:50 michelle-labpc gsd-color[1904]: unable to get EDID for xrandr-VGA-1: unable to get EDID for output
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.ScreenSaver'
+Jun  1 18:56:50 michelle-labpc gsd-color[1271]: unable to get EDID for xrandr-VGA-1: unable to get EDID for output
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started Portal service (GNOME implementation).
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.Terminal'
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started GNOME Terminal Server.
+Jun  1 18:56:50 michelle-labpc rtkit-daemon[990]: Supervising 10 threads of 6 processes of 2 users.
+Jun  1 18:56:50 michelle-labpc rtkit-daemon[990]: message repeated 2 times: [ Supervising 10 threads of 6 processes of 2 users.]
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.76' (uid=1000 pid=2148 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Starting Portal service (GTK/GNOME implementation)...
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started VTE child process 2278 launched by gnome-terminal-server process 2216.
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started Portal service (GTK/GNOME implementation).
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.portal.Desktop'
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started Portal service.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Startup finished in 3.020s.
+Jun  1 18:56:50 michelle-labpc gnome-shell[1772]: GNOME Shell started at Thu Jun 01 2023 18:56:49 GMT-0400 (EDT)
+Jun  1 18:56:50 michelle-labpc gnome-shell[1772]: Registering session with GDM
+Jun  1 18:56:50 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.FileManager1'
+Jun  1 18:56:50 michelle-labpc gdm-launch-environment]: GLib-GObject: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jun  1 18:56:50 michelle-labpc systemd[1546]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 1.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Jun  1 18:56:50 michelle-labpc systemd[1546]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Jun  1 18:56:50 michelle-labpc systemd[1]: session-c1.scope: Deactivated successfully.
+Jun  1 18:56:50 michelle-labpc systemd[1]: session-c1.scope: Consumed 3.658s CPU time.
+Jun  1 18:56:50 michelle-labpc gdm3: Gdm: Child process -987 was already dead.
+Jun  1 18:56:50 michelle-labpc kernel: [   59.135376] audit: type=1326 audit(1685660210.989:60): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snapd-desktop-integration.snapd-desktop-integration pid=2406 comm="snapd-desktop-i" exe="/snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7ff5d3652a3d code=0x50000
+Jun  1 18:56:51 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.ArchiveManager1' requested by ':1.91' (uid=1000 pid=2296 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+Jun  1 18:56:51 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.108' (uid=1000 pid=2046 comm="/snap/snap-store/959/usr/bin/snap-store --gapplica" label="snap.snap-store.ubuntu-software (enforce)")
+Jun  1 18:56:51 michelle-labpc snapd-desktop-i[2406]: New theme: gtk=Adwaita-dark icon=Yaru cursor=Yaru, sound=Yaru
+Jun  1 18:56:51 michelle-labpc systemd[1]: Starting Firmware update daemon...
+Jun  1 18:56:51 michelle-labpc snapd-desktop-i[2406]: All available theme snaps installed
+Jun  1 18:56:51 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.ArchiveManager1'
+Jun  1 18:56:51 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.91' (uid=1000 pid=2296 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+Jun  1 18:56:51 michelle-labpc systemd[1546]: Starting Virtual filesystem metadata service...
+Jun  1 18:56:51 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gtk.vfs.Metadata'
+Jun  1 18:56:51 michelle-labpc systemd[1546]: Started Virtual filesystem metadata service.
+Jun  1 18:56:51 michelle-labpc gnome-shell[1772]: DING: Detected async api for thumbnails
+Jun  1 18:56:51 michelle-labpc gnome-shell[1772]: DING: GNOME nautilus 42.2
+Jun  1 18:56:51 michelle-labpc fwupd[2456]: 22:56:51:0345 FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:1f.0/intel-spi/spi_master/spi0/spi0.0/mtd/mtd0ro: attribute size returned no data
+Jun  1 18:56:51 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Jun  1 18:56:51 michelle-labpc systemd[1]: Started Firmware update daemon.
+Jun  1 18:56:51 michelle-labpc fwupd[2456]: 22:56:51:0716 FuPluginPciMei       ME family not supported for 0:9.1.0.1120
+Jun  1 18:56:51 michelle-labpc kernel: [   59.875058] audit: type=1107 audit(1685660211.729:61): pid=774 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.11" pid=2046 label="snap.snap-store.ubuntu-software" peer_pid=784 peer_label="unconfined"
+Jun  1 18:56:51 michelle-labpc kernel: [   59.875058]  exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Jun  1 18:56:51 michelle-labpc kernel: [   59.875327] audit: type=1107 audit(1685660211.729:62): pid=774 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.11" pid=2046 label="snap.snap-store.ubuntu-software" peer_pid=784 peer_label="unconfined"
+Jun  1 18:56:51 michelle-labpc kernel: [   59.875327]  exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Jun  1 18:56:51 michelle-labpc snap-store[2046]: enabled plugins: fwupd, os-release, packagekit-refine-repos, packagekit-refresh, appstream, hardcoded-blocklist, hardcoded-popular, modalias, packagekit, rewrite-resource, provenance, snap, systemd-updates, generic-updates, provenance-license, icons
+Jun  1 18:56:51 michelle-labpc snap-store[2046]: disabled plugins: dpkg, dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+Jun  1 18:56:51 michelle-labpc kernel: [   59.877218] audit: type=1107 audit(1685660211.733:63): pid=774 uid=102 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.11" pid=2046 label="snap.snap-store.ubuntu-software" peer_pid=784 peer_label="unconfined"
+Jun  1 18:56:51 michelle-labpc kernel: [   59.877218]  exe="/usr/bin/dbus-daemon" sauid=102 hostname=? addr=? terminal=?'
+Jun  1 18:56:52 michelle-labpc systemd[1]: Starting Update APT News...
+Jun  1 18:56:52 michelle-labpc systemd[1]: Starting Update the local ESM caches...
+Jun  1 18:56:56 michelle-labpc systemd[1]: apt-news.service: Deactivated successfully.
+Jun  1 18:56:56 michelle-labpc systemd[1]: Finished Update APT News.
+Jun  1 18:56:56 michelle-labpc systemd[1]: esm-cache.service: Deactivated successfully.
+Jun  1 18:56:56 michelle-labpc systemd[1]: Finished Update the local ESM caches.
+Jun  1 18:56:57 michelle-labpc geoclue[1249]: Service not used for 60 seconds. Shutting down..
+Jun  1 18:56:57 michelle-labpc systemd[1]: geoclue.service: Deactivated successfully.
+Jun  1 18:57:00 michelle-labpc nautilus[1874]: Could not delete '.meta.isrunning': No such file or directory
+Jun  1 18:57:01 michelle-labpc systemd[1]: Stopping User Manager for UID 128...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped target Main User Target.
+Jun  1 18:57:01 michelle-labpc gvfsd[1006]: A connection to the bus can't be made
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping D-Bus User Message Bus...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem service...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem service - digital camera monitor...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem metadata service...
+Jun  1 18:57:01 michelle-labpc systemd[1]: run-user-128-doc.mount: Deactivated successfully.
+Jun  1 18:57:01 michelle-labpc systemd[1]: run-user-128-gvfs.mount: Deactivated successfully.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Virtual filesystem service - disk device monitor...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping PipeWire Media Session Manager...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping Tracker file system data miner...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping flatpak document portal service...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping sandboxed app permission store...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped PipeWire Media Session Manager.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped D-Bus User Message Bus.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem service.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem service - disk device monitor.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+Jun  1 18:57:01 michelle-labpc systemd[965]: xdg-document-portal.service: Main process exited, code=exited, status=20/n/a
+Jun  1 18:57:01 michelle-labpc systemd[965]: xdg-document-portal.service: Failed with result 'exit-code'.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped flatpak document portal service.
+Jun  1 18:57:01 michelle-labpc systemd[965]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+Jun  1 18:57:01 michelle-labpc systemd[965]: xdg-permission-store.service: Failed with result 'exit-code'.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped sandboxed app permission store.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem service - digital camera monitor.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Virtual filesystem metadata service.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopping PipeWire Multimedia Service...
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped PipeWire Multimedia Service.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Removed slice User Core Session Slice.
+Jun  1 18:57:01 michelle-labpc tracker-miner-fs-3[1048]: OK
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Tracker file system data miner.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Removed slice User Background Tasks Slice.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped target Basic System.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped target Paths.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped Pending report trigger for Ubuntu Report.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped target Sockets.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Stopped target Timers.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed D-Bus User Message Bus Socket.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed GnuPG network certificate management daemon.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed GnuPG cryptographic agent and passphrase cache.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed PipeWire Multimedia System Socket.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed debconf communication socket.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed Sound System.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Closed REST API socket for snapd user session agent.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Removed slice User Application Slice.
+Jun  1 18:57:01 michelle-labpc systemd[965]: app.slice: Consumed 1.092s CPU time.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Reached target Shutdown.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Finished Exit the Session.
+Jun  1 18:57:01 michelle-labpc systemd[965]: Reached target Exit the Session.
+Jun  1 18:57:01 michelle-labpc systemd[1]: user@128.service: Deactivated successfully.
+Jun  1 18:57:01 michelle-labpc systemd[1]: Stopped User Manager for UID 128.
+Jun  1 18:57:01 michelle-labpc systemd[1]: user@128.service: Consumed 1.860s CPU time.
+Jun  1 18:57:01 michelle-labpc systemd[1]: Stopping User Runtime Directory /run/user/128...
+Jun  1 18:57:01 michelle-labpc systemd[1]: run-user-128.mount: Deactivated successfully.
+Jun  1 18:57:01 michelle-labpc systemd[1]: user-runtime-dir@128.service: Deactivated successfully.
+Jun  1 18:57:01 michelle-labpc systemd[1]: Stopped User Runtime Directory /run/user/128.
+Jun  1 18:57:01 michelle-labpc systemd[1]: Removed slice User Slice of UID 128.
+Jun  1 18:57:01 michelle-labpc systemd[1]: user-128.slice: Consumed 5.526s CPU time.
+Jun  1 18:57:03 michelle-labpc systemd[1]: fprintd.service: Deactivated successfully.
+Jun  1 18:57:15 michelle-labpc PackageKit: refresh-cache transaction /286_caaebbba from uid 1000 finished with success after 23580ms
+Jun  1 18:57:16 michelle-labpc systemd[1]: Starting Update APT News...
+Jun  1 18:57:16 michelle-labpc systemd[1]: Starting Update the local ESM caches...
+Jun  1 18:57:16 michelle-labpc systemd[1]: apt-news.service: Deactivated successfully.
+Jun  1 18:57:16 michelle-labpc systemd[1]: Finished Update APT News.
+Jun  1 18:57:16 michelle-labpc kernel: [   85.069230] kauditd_printk_skb: 2 callbacks suppressed
+Jun  1 18:57:16 michelle-labpc kernel: [   85.069232] audit: type=1326 audit(1685660236.918:66): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=2046 comm="pool-org.gnome." exe="/snap/snap-store/959/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7f61bae68c4b code=0x50000
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Builder.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Calculator.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.clocks.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Dictionary.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Documents.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Evince/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.gedit.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Maps.desktop/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: adding wildcard app */*/*/org.gnome.Weather/* to plugin cache
+Jun  1 18:57:17 michelle-labpc snap-store[2046]: Only 0 apps for recent list, hiding
+Jun  1 18:57:17 michelle-labpc PackageKit: refresh-cache transaction /287_ddaadbbc from uid 1000 finished with success after 2051ms
+Jun  1 18:57:18 michelle-labpc systemd[1]: Starting Update APT News...
+Jun  1 18:57:18 michelle-labpc packagekitd[1250]: Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/jammy/InRelease  
+Jun  1 18:57:18 michelle-labpc packagekitd[1250]: Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease  
+Jun  1 18:57:18 michelle-labpc packagekitd[1250]: Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  
+Jun  1 18:57:18 michelle-labpc packagekitd[1250]: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  
+Jun  1 18:57:18 michelle-labpc packagekitd[1250]: Failed to fetch https://dl.google.com/linux/chrome/deb/dists/stable/InRelease  
+Jun  1 18:57:18 michelle-labpc packagekitd[1250]: Some index files failed to download. They have been ignored, or old ones used instead.
+Jun  1 18:57:18 michelle-labpc PackageKit: refresh-cache transaction /288_dbeedcae from uid 1000 finished with cancelled-priority after 1140ms
+Jun  1 18:57:18 michelle-labpc snap-store[2046]: not handling error failed for action refresh: E: Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/jammy/InRelease  #012E: Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/jammy-updates/InRelease  #012E: Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/jammy-backports/InRelease  #012E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease  #012E: Failed to fetch https://dl.google.com/linux/chrome/deb/dists/stable/InRelease  #012E: Some index files failed to download. They have been ignored, or old ones used instead.
+Jun  1 18:57:18 michelle-labpc systemd[1]: apt-news.service: Deactivated successfully.
+Jun  1 18:57:18 michelle-labpc systemd[1]: Finished Update APT News.
+Jun  1 18:57:19 michelle-labpc systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jun  1 18:57:19 michelle-labpc PackageKit: resolve transaction /289_bcceceae from uid 1000 finished with success after 1033ms
+Jun  1 18:57:20 michelle-labpc snapd[793]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+Jun  1 18:57:20 michelle-labpc systemd[1]: systemd-localed.service: Deactivated successfully.
+Jun  1 18:57:20 michelle-labpc PackageKit: search-file transaction /290_cbbecbbc from uid 1000 finished with success after 591ms
+Jun  1 18:57:20 michelle-labpc systemd[1]: esm-cache.service: Deactivated successfully.
+Jun  1 18:57:20 michelle-labpc systemd[1]: Finished Update the local ESM caches.
+Jun  1 18:57:20 michelle-labpc PackageKit: search-file transaction /291_cddbabad from uid 1000 finished with success after 317ms
+Jun  1 18:57:21 michelle-labpc PackageKit: search-file transaction /292_deecccdd from uid 1000 finished with success after 295ms
+Jun  1 18:57:21 michelle-labpc PackageKit: get-details transaction /293_cedccecb from uid 1000 finished with success after 248ms
+Jun  1 18:57:26 michelle-labpc snapd[793]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+Jun  1 18:57:27 michelle-labpc PackageKit: get-updates transaction /294_bdcbadad from uid 1000 finished with success after 399ms
+Jun  1 18:57:28 michelle-labpc snapd[793]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd-desktop-integration"
+Jun  1 18:57:28 michelle-labpc PackageKit: get-updates transaction /295_dacccebb from uid 1000 finished with success after 389ms
+Jun  1 18:57:49 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 18:57:49 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 18:57:53 michelle-labpc ubuntu-appindicators@ubuntu.com[1772]: unable to update icon for software-update-available
+Jun  1 18:57:53 michelle-labpc ubuntu-appindicators@ubuntu.com[1772]: unable to update icon for livepatch
+Jun  1 18:58:49 michelle-labpc systemd[1546]: Started Application launched by gnome-session-binary.
+Jun  1 19:00:55 michelle-labpc anacron[768]: Job `cron.daily' started
+Jun  1 19:00:55 michelle-labpc anacron[3709]: Updated timestamp for job `cron.daily' to 2023-06-01
+Jun  1 19:00:55 michelle-labpc systemd[1]: Starting Download data for packages that failed at package install time...
+Jun  1 19:00:55 michelle-labpc cracklib: no dictionary update necessary.
+Jun  1 19:00:55 michelle-labpc systemd[1]: update-notifier-download.service: Deactivated successfully.
+Jun  1 19:00:55 michelle-labpc systemd[1]: Finished Download data for packages that failed at package install time.
+Jun  1 19:00:55 michelle-labpc anacron[768]: Job `cron.daily' terminated
+Jun  1 19:01:01 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.37' (uid=0 pid=793 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jun  1 19:01:01 michelle-labpc systemd[1]: Starting Time & Date Service...
+Jun  1 19:01:01 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jun  1 19:01:01 michelle-labpc systemd[1]: Started Time & Date Service.
+Jun  1 19:01:03 michelle-labpc snapd[793]: storehelpers.go:769: cannot refresh: snap has no updates available: "bare", "code", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "snap-store", "snapd", "snapd-desktop-integration"
+Jun  1 19:01:31 michelle-labpc systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jun  1 19:01:59 michelle-labpc update-notifier[3586]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+Jun  1 19:01:59 michelle-labpc update-notifier[3586]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+Jun  1 19:04:01 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:05:52 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:05:55 michelle-labpc anacron[768]: Job `cron.weekly' started
+Jun  1 19:05:55 michelle-labpc anacron[3783]: Updated timestamp for job `cron.weekly' to 2023-06-01
+Jun  1 19:05:55 michelle-labpc anacron[768]: Job `cron.weekly' terminated
+Jun  1 19:05:55 michelle-labpc anacron[768]: Normal exit (2 jobs run)
+Jun  1 19:05:55 michelle-labpc systemd[1]: anacron.service: Deactivated successfully.
+Jun  1 19:05:56 michelle-labpc rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="790" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jun  1 19:10:54 michelle-labpc systemd[1]: Starting Cleanup of Temporary Directories...
+Jun  1 19:10:54 michelle-labpc systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jun  1 19:10:54 michelle-labpc systemd[1]: Finished Cleanup of Temporary Directories.
+Jun  1 19:16:55 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:17:00 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:17:01 michelle-labpc CRON[3794]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  1 19:19:34 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:29:54 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:30:01 michelle-labpc CRON[3803]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun  1 19:33:26 michelle-labpc systemd[1]: Started Run anacron jobs.
+Jun  1 19:33:26 michelle-labpc anacron[3806]: Anacron 2.3 started on 2023-06-01
+Jun  1 19:33:26 michelle-labpc systemd[1]: Starting Daily apt upgrade and clean activities...
+Jun  1 19:33:26 michelle-labpc anacron[3806]: Normal exit (0 jobs run)
+Jun  1 19:33:26 michelle-labpc systemd[1]: anacron.service: Deactivated successfully.
+Jun  1 19:36:08 michelle-labpc kernel: [ 2416.911416] audit: type=1400 audit(1685662568.693:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=4141 comm="apparmor_parser"
+Jun  1 19:36:08 michelle-labpc kernel: [ 2416.912542] audit: type=1400 audit(1685662568.697:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=4141 comm="apparmor_parser"
+Jun  1 19:36:08 michelle-labpc kernel: [ 2416.932255] audit: type=1400 audit(1685662568.717:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=4141 comm="apparmor_parser"
+Jun  1 19:36:08 michelle-labpc systemd[1]: Reloading.
+Jun  1 19:36:08 michelle-labpc systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+Jun  1 19:36:09 michelle-labpc systemd[1]: Reloading.
+Jun  1 19:36:09 michelle-labpc systemd[1]: ua-timer.service: Deactivated successfully.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Finished Ubuntu Advantage Timer for running repeated jobs.
+Jun  1 19:36:09 michelle-labpc systemd[1]: cups.path: Deactivated successfully.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopped CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopping CUPS Scheduler...
+Jun  1 19:36:09 michelle-labpc systemd[1]: Started CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopping Make remote CUPS printers available locally...
+Jun  1 19:36:09 michelle-labpc systemd[1]: cups-browsed.service: Deactivated successfully.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopped Make remote CUPS printers available locally.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopping CUPS Scheduler...
+Jun  1 19:36:09 michelle-labpc systemd[1]: cups.service: Deactivated successfully.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopped CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: cups.path: Deactivated successfully.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopped CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopping CUPS Scheduler...
+Jun  1 19:36:09 michelle-labpc systemd[1]: Started CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: cups.socket: Deactivated successfully.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Closed CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Stopping CUPS Scheduler...
+Jun  1 19:36:09 michelle-labpc systemd[1]: Listening on CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc systemd[1]: Starting CUPS Scheduler...
+Jun  1 19:36:09 michelle-labpc systemd[1]: Started CUPS Scheduler.
+Jun  1 19:36:09 michelle-labpc kernel: [ 2417.761892] audit: type=1400 audit(1685662569.545:70): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=4223 comm="cupsd" capability=12  capname="net_admin"
+Jun  1 19:36:09 michelle-labpc systemd[1]: Started Make remote CUPS printers available locally.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: Files changed, reloading.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: No service file found in /etc/avahi/services.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: Files changed, reloading.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: No service file found in /etc/avahi/services.
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: Files changed, reloading.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: No service file found in /etc/avahi/services.
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: Files changed, reloading.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: No service file found in /etc/avahi/services.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: Files changed, reloading.
+Jun  1 19:36:20 michelle-labpc avahi-daemon[770]: No service file found in /etc/avahi/services.
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:20 michelle-labpc systemd[1]: Reloading D-Bus System Message Bus...
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:20 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:20 michelle-labpc dbus-send[4828]: method return time=1685662580.673083 sender=org.freedesktop.DBus -> destination=:1.132 serial=3 reply_serial=2
+Jun  1 19:36:20 michelle-labpc systemd[1]: Reloaded D-Bus System Message Bus.
+Jun  1 19:36:20 michelle-labpc systemd[1]: Reloading.
+Jun  1 19:36:21 michelle-labpc systemd[1]: Reloading.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[770]: Got SIGTERM, quitting.
+Jun  1 19:36:21 michelle-labpc systemd[1]: Stopping Avahi mDNS/DNS-SD Stack...
+Jun  1 19:36:21 michelle-labpc avahi-daemon[770]: Leaving mDNS multicast group on interface wlx8c8828200b8a.IPv6 with address fd56:2251:ce4:43c8:e58b:68b3:ef1d:e642.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[770]: Leaving mDNS multicast group on interface wlx8c8828200b8a.IPv4 with address 192.168.0.104.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[770]: Leaving mDNS multicast group on interface lo.IPv6 with address ::1.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[770]: Leaving mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Jun  1 19:36:21 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service' requested by ':1.133' (uid=0 pid=4224 comm="/usr/sbin/cups-browsed " label="/usr/sbin/cups-browsed (enforce)")
+Jun  1 19:36:21 michelle-labpc avahi-daemon[770]: avahi-daemon 0.8 exiting.
+Jun  1 19:36:21 michelle-labpc systemd[1]: avahi-daemon.service: Deactivated successfully.
+Jun  1 19:36:21 michelle-labpc systemd[1]: Stopped Avahi mDNS/DNS-SD Stack.
+Jun  1 19:36:21 michelle-labpc systemd[1]: avahi-daemon.socket: Deactivated successfully.
+Jun  1 19:36:21 michelle-labpc systemd[1]: Closed Avahi mDNS/DNS-SD Stack Activation Socket.
+Jun  1 19:36:21 michelle-labpc systemd[1]: Stopping Avahi mDNS/DNS-SD Stack Activation Socket...
+Jun  1 19:36:21 michelle-labpc systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jun  1 19:36:21 michelle-labpc systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Process 770 died: No such process; trying to remove PID file. (/run/avahi-daemon//pid)
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Found user 'avahi' (UID 114) and group 'avahi' (GID 121).
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Successfully dropped root privileges.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: avahi-daemon 0.8 starting up.
+Jun  1 19:36:21 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.Avahi'
+Jun  1 19:36:21 michelle-labpc systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Successfully called chroot().
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Successfully dropped remaining capabilities.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: No service file found in /etc/avahi/services.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Joining mDNS multicast group on interface wlx8c8828200b8a.IPv6 with address fd56:2251:ce4:43c8:e58b:68b3:ef1d:e642.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: New relevant interface wlx8c8828200b8a.IPv6 for mDNS.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Joining mDNS multicast group on interface wlx8c8828200b8a.IPv4 with address 192.168.0.104.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: New relevant interface wlx8c8828200b8a.IPv4 for mDNS.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: New relevant interface lo.IPv6 for mDNS.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: New relevant interface lo.IPv4 for mDNS.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Network interface enumeration completed.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Registering new address record for fd56:2251:ce4:43c8:e58b:68b3:ef1d:e642 on wlx8c8828200b8a.*.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Registering new address record for fd56:2251:ce4:43c8:d562:b714:a394:9000 on wlx8c8828200b8a.*.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Registering new address record for 192.168.0.104 on wlx8c8828200b8a.IPv4.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Registering new address record for ::1 on lo.*.
+Jun  1 19:36:21 michelle-labpc avahi-daemon[4903]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Jun  1 19:36:21 michelle-labpc dbus-daemon[774]: Unknown group "power" in message bus configuration file
+Jun  1 19:36:21 michelle-labpc dbus-daemon[774]: [system] Reloaded configuration
+Jun  1 19:36:22 michelle-labpc avahi-daemon[4903]: Server startup complete. Host name is michelle-labpc.local. Local service cookie is 1322288283.
+Jun  1 19:36:52 michelle-labpc update-notifier.desktop[10493]: /var/lib/dpkg/lock:
+Jun  1 19:37:07 michelle-labpc avahi-daemon[4903]: Files changed, reloading.
+Jun  1 19:37:07 michelle-labpc avahi-daemon[4903]: No service file found in /etc/avahi/services.
+Jun  1 19:37:07 michelle-labpc avahi-daemon[4903]: Files changed, reloading.
+Jun  1 19:37:07 michelle-labpc avahi-daemon[4903]: No service file found in /etc/avahi/services.
+Jun  1 19:37:07 michelle-labpc avahi-daemon[4903]: Files changed, reloading.
+Jun  1 19:37:07 michelle-labpc avahi-daemon[4903]: No service file found in /etc/avahi/services.
+Jun  1 19:37:34 michelle-labpc systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Jun  1 19:37:34 michelle-labpc systemd[1]: Finished Daily apt upgrade and clean activities.
+Jun  1 19:37:34 michelle-labpc systemd[1]: apt-daily-upgrade.service: Consumed 2min 15.945s CPU time.
+Jun  1 19:38:45 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.freedesktop.FileManager1' requested by ':1.36' (uid=1000 pid=1772 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:38:45 michelle-labpc NetworkManager[775]: <info>  [1685662725.4674] agent-manager: agent[1bc9290e789f4c4e,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Jun  1 19:38:45 michelle-labpc ubuntu-appindicators@ubuntu.com[1772]: unable to update icon for software-update-available
+Jun  1 19:38:45 michelle-labpc ubuntu-appindicators@ubuntu.com[1772]: unable to update icon for livepatch
+Jun  1 19:38:45 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.freedesktop.FileManager1'
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Jun  1 19:38:45 michelle-labpc gnome-shell[1772]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Jun  1 19:38:45 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating service name='org.gnome.ArchiveManager1' requested by ':1.108' (uid=1000 pid=18345 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+Jun  1 19:38:46 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.ArchiveManager1'
+Jun  1 19:38:46 michelle-labpc gnome-shell[1772]: DING: Detected async api for thumbnails
+Jun  1 19:38:46 michelle-labpc gnome-shell[1772]: DING: GNOME nautilus 42.2
+Jun  1 19:38:55 michelle-labpc nautilus[18333]: Could not delete '.meta.isrunning': No such file or directory
+Jun  1 19:39:04 michelle-labpc systemd[1546]: Started Application launched by gnome-shell.
+Jun  1 19:39:04 michelle-labpc gnome-shell[18401]: (WW) Option "-listen" for file descriptors is deprecated
+Jun  1 19:39:04 michelle-labpc gnome-shell[18401]: Please use "-listenfd" instead.
+Jun  1 19:39:04 michelle-labpc gnome-shell[18401]: (WW) Option "-listen" for file descriptors is deprecated
+Jun  1 19:39:04 michelle-labpc gnome-shell[18401]: Please use "-listenfd" instead.
+Jun  1 19:39:04 michelle-labpc systemd[1546]: Reached target GNOME session X11 services.
+Jun  1 19:39:04 michelle-labpc systemd[1546]: Starting GNOME XSettings service...
+Jun  1 19:39:04 michelle-labpc gnome-shell[18409]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Jun  1 19:39:04 michelle-labpc gnome-shell[18409]: > Warning:          Unsupported maximum keycode 708, clipping.
+Jun  1 19:39:04 michelle-labpc gnome-shell[18409]: >                   X11 cannot support keycodes above 255.
+Jun  1 19:39:04 michelle-labpc gnome-shell[18409]: Errors from xkbcomp are not fatal to the X server
+Jun  1 19:39:04 michelle-labpc systemd[1546]: Started GNOME XSettings service.
+Jun  1 19:39:04 michelle-labpc systemd[1546]: Reached target GNOME session X11 services.
+Jun  1 19:39:04 michelle-labpc gnome-shell[1772]: ATK Bridge is disabled but a11y has already been enabled.
+Jun  1 19:39:25 michelle-labpc kernel: [ 2613.628735] SUPR0GipMap: fGetGipCpu=0x1b
+Jun  1 19:39:26 michelle-labpc gnome-shell[18509]: syntax error: line 1 of stdin
+Jun  1 19:39:26 michelle-labpc gnome-shell[18509]: Errors encountered in stdin; not compiled.
+Jun  1 19:39:26 michelle-labpc kernel: [ 2614.452801] vboxdrv: 0000000000000000 VMMR0.r0
+Jun  1 19:39:26 michelle-labpc kernel: [ 2614.572062] vboxdrv: 0000000000000000 VBoxDDR0.r0
+Jun  1 19:39:26 michelle-labpc kernel: [ 2614.617033] VBoxNetFlt: attached to 'wlx8c8828200b8a' / 8c:88:28:20:0b:8a
+Jun  1 19:39:26 michelle-labpc kernel: [ 2614.622832] vboxdrv: 0000000000000000 VBoxEhciR0.r0
+Jun  1 19:39:26 michelle-labpc kernel: [ 2614.623901] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+Jun  1 19:39:52 michelle-labpc update-notifier.desktop[18616]: #015Reading package lists... 0%#015#015Reading package lists... 100%#015#015Reading package lists... Done
+Jun  1 19:39:52 michelle-labpc update-notifier.desktop[18616]: #015Building dependency tree... 0%#015#015Building dependency tree... 0%#015#015Building dependency tree... 50%#015#015Building dependency tree... 50%#015#015Building dependency tree... Done
+Jun  1 19:39:52 michelle-labpc update-notifier.desktop[18616]: #015Reading state information... 0% #015#015Reading state information... 0%#015#015Reading state information... Done
+Jun  1 19:40:16 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:40:16 michelle-labpc kernel: [ 2665.147431] vboxnetflt: 0 out of 55 packets were not sent (directed to host)
+Jun  1 19:40:35 michelle-labpc systemd[1546]: Started Application launched by gnome-shell.
+Jun  1 19:40:35 michelle-labpc systemd[1546]: Started snap.code.code.3cf5772e-51e7-4303-8fa2-2422b7f2a94b.scope.
+Jun  1 19:44:44 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:45:28 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:47:00 michelle-labpc systemd[1546]: Started Application launched by gnome-shell.
+Jun  1 19:47:00 michelle-labpc google-chrome.desktop[19290]: MESA-INTEL: warning: Haswell Vulkan support is incomplete
+Jun  1 19:47:01 michelle-labpc google-chrome.desktop[19290]: libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+Jun  1 19:47:02 michelle-labpc google-chrome.desktop[19290]: [19284:19284:0601/194702.718882:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+Jun  1 19:47:03 michelle-labpc google-chrome.desktop[19290]: INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Jun  1 19:47:06 michelle-labpc google-chrome.desktop[19290]: [19332:19332:0601/194706.789263:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+Jun  1 19:47:06 michelle-labpc google-chrome.desktop[19290]: [19332:19332:0601/194706.864870:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+Jun  1 19:47:13 michelle-labpc google-chrome.desktop[19290]: [19332:19332:0601/194713.789218:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+Jun  1 19:47:14 michelle-labpc gsd-color[1904]: unable to get EDID for xrandr-VGA-1: unable to get EDID for output
+Jun  1 19:47:19 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:48:00 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:50:36 michelle-labpc systemd[1546]: Started Application launched by gnome-shell.
+Jun  1 19:50:36 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.189' (uid=1000 pid=19690 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Jun  1 19:50:36 michelle-labpc systemd[1546]: Starting GNOME Terminal Server...
+Jun  1 19:50:36 michelle-labpc dbus-daemon[1565]: [session uid=1000 pid=1565] Successfully activated service 'org.gnome.Terminal'
+Jun  1 19:50:36 michelle-labpc systemd[1546]: Started GNOME Terminal Server.
+Jun  1 19:50:36 michelle-labpc systemd[1546]: Started VTE child process 19722 launched by gnome-terminal-server process 19695.
+Jun  1 19:52:28 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:53:12 michelle-labpc wpa_supplicant[804]: wlx8c8828200b8a: CTRL-EVENT-BEACON-LOSS 
+Jun  1 19:55:57 michelle-labpc NetworkManager[775]: <info>  [1685663757.5249] dhcp4 (wlx8c8828200b8a): state changed new lease, address=192.168.0.104
+Jun  1 19:56:17 michelle-labpc NetworkManager[775]: <info>  [1685663777.8757] manager: NetworkManager state is now CONNECTED_SITE
+Jun  1 19:56:17 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=775 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun  1 19:56:17 michelle-labpc systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun  1 19:56:17 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun  1 19:56:17 michelle-labpc systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun  1 19:56:18 michelle-labpc NetworkManager[775]: <info>  [1685663778.1218] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun  1 19:56:28 michelle-labpc systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jun  1 19:59:51 michelle-labpc gnome-shell[1772]: libinput error: event3  - Usb KeyBoard Usb KeyBoard: client bug: event processing lagging behind by 31ms, your system is too slow
+Jun  1 20:00:11 michelle-labpc gnome-shell[1772]: libinput error: event3  - Usb KeyBoard Usb KeyBoard: client bug: event processing lagging behind by 23ms, your system is too slow
+Jun  1 20:06:37 michelle-labpc NetworkManager[775]: <info>  [1685664397.8736] manager: NetworkManager state is now CONNECTED_SITE
+Jun  1 20:06:37 michelle-labpc dbus-daemon[774]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=775 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun  1 20:06:37 michelle-labpc systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun  1 20:06:37 michelle-labpc dbus-daemon[774]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun  1 20:06:37 michelle-labpc systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun  1 20:06:38 michelle-labpc NetworkManager[775]: <info>  [1685664398.0093] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun  1 20:06:48 michelle-labpc systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jun  1 20:17:01 michelle-labpc CRON[20940]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  1 20:24:49 michelle-labpc gnome-shell[1772]: libinput error: event3  - Usb KeyBoard Usb KeyBoard: client bug: event processing lagging behind by 33ms, your system is too slow
+Jun  1 20:26:07 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202607.720486:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:49430 (any)
+Jun  1 20:26:07 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202607.720659:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:37077 (any)
+Jun  1 20:26:07 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202607.720964:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:50141 (any)
+Jun  1 20:26:07 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202607.721219:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:47569 (any)
+Jun  1 20:26:07 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202607.721506:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:49228 (any)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6b774470), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:566 (fd93d40b420 @ 10)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:567 (fd93d40b420 @ 36)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:570 (fd93d40b420 @ 77)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c850 b   resource:///org/gnome/shell/ui/windowPreview.js:638 (fd93d40b600 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:353 (fd93d408d30 @ 62)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:357 (fd93d408d30 @ 87)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:364 (fd93d408d80 @ 8)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:179 (277333dcc560 @ 43)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c540 b   resource:///org/gnome/shell/ui/environment.js:380 (277333dccc90 @ 43)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:182 (277333dcc560 @ 91)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:205 (277333dcc560 @ 380)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c4c0 b   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc6a0 @ 15)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c540 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc560 @ 503)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #7   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:222 (277333dcc560 @ 519)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object .Gjs_ui_windowPreview_WindowPreview (0x560d6a431220), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c540 b   resource:///org/gnome/gjs/modules/core/overrides/GObject.js:685 (277333dbc100 @ 25)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:223 (277333dcc560 @ 570)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:224 (277333dcc560 @ 591)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c420 b   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc6f0 @ 15)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c540 b   self-hosted:218 (277333d92880 @ 294)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc560 @ 612)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object .Gjs_ui_windowPreview_WindowPreview (0x560d6a431220), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #7   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c490 b   resource:///org/gnome/shell/ui/windowPreview.js:369 (fd93d408dd0 @ 12)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c540 b   resource:///org/gnome/shell/ui/environment.js:153 (277333dcc4c0 @ 98)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:242 (277333dcc560 @ 974)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #7   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:364 (fd93d408d80 @ 8)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:179 (277333dcc560 @ 43)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c540 b   resource:///org/gnome/shell/ui/environment.js:380 (277333dccc90 @ 43)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:182 (277333dcc560 @ 91)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:205 (277333dcc560 @ 380)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c4c0 b   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc6a0 @ 15)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c540 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc560 @ 503)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #7   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:222 (277333dcc560 @ 519)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c540 b   resource:///org/gnome/gjs/modules/core/overrides/GObject.js:685 (277333dbc100 @ 25)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:223 (277333dcc560 @ 570)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:224 (277333dcc560 @ 591)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c420 b   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc6f0 @ 15)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c540 b   self-hosted:218 (277333d92880 @ 294)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc560 @ 612)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #7   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c490 b   resource:///org/gnome/shell/ui/windowPreview.js:369 (fd93d408dd0 @ 12)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24c540 b   resource:///org/gnome/shell/ui/environment.js:153 (277333dcc4c0 @ 98)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #2   7ffdab24c630 b   resource:///org/gnome/shell/ui/environment.js:242 (277333dcc560 @ 974)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #3   7ffdab24c700 b   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #4   7ffdab24c7c0 b   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #5   7ffdab24c840 I   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #6   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #7   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #0   7ffdab24c910 b   resource:///org/gnome/shell/ui/windowPreview.js:373 (fd93d408d30 @ 230)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: #1   7ffdab24d030 b   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: message repeated 3 times: [ Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: message repeated 2 times: [ Object St.Label (0x560d6cd76ef0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6b774470), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6b774470), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: message repeated 4 times: [ Object St.Button (0x560d6b774470), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6b774470), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6b774470), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: message repeated 2 times: [ Object St.Button (0x560d6b774470), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: Object .Gjs_ui_windowPreview_WindowPreview (0x560d6a431220), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:53 michelle-labpc gnome-shell[1772]: JS ERROR: TypeError: this.window_container is null#012hideOverlay@resource:///org/gnome/shell/ui/windowPreview.js:373:9#012vfunc_leave_event/this._idleHideOverlayId<@resource:///org/gnome/shell/ui/windowPreview.js:571:26
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6a6e8860), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:566 (fd93d40b420 @ 10)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:567 (fd93d40b420 @ 36)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:570 (fd93d40b420 @ 77)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:638 (fd93d40b600 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:353 (fd93d408d30 @ 62)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:357 (fd93d408d30 @ 87)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:364 (fd93d408d80 @ 8)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:179 (277333dcc560 @ 43)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object .Gjs_ui_windowPreview_WindowPreview (0x560d6a5da690), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:380 (277333dccc90 @ 43)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:182 (277333dcc560 @ 91)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:205 (277333dcc560 @ 380)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc6a0 @ 15)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   7ffdab24be00 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc560 @ 503)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #7   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:222 (277333dcc560 @ 519)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object .Gjs_ui_windowPreview_WindowPreview (0x560d6a5da690), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   7ffdab24be00 b   resource:///org/gnome/gjs/modules/core/overrides/GObject.js:685 (277333dbc100 @ 25)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:223 (277333dcc560 @ 570)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:224 (277333dcc560 @ 591)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc6f0 @ 15)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   7ffdab24be00 b   self-hosted:218 (277333d92880 @ 294)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc560 @ 612)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #7   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6db0 i   resource:///org/gnome/shell/ui/windowPreview.js:369 (fd93d408dd0 @ 12)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:153 (277333dcc4c0 @ 98)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:242 (277333dcc560 @ 974)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #7   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:364 (fd93d408d80 @ 8)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:179 (277333dcc560 @ 43)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:380 (277333dccc90 @ 43)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:182 (277333dcc560 @ 91)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:205 (277333dcc560 @ 380)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc6a0 @ 15)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   7ffdab24be00 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:220 (277333dcc560 @ 503)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #7   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:222 (277333dcc560 @ 519)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   7ffdab24be00 b   resource:///org/gnome/gjs/modules/core/overrides/GObject.js:685 (277333dbc100 @ 25)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:223 (277333dcc560 @ 570)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:224 (277333dcc560 @ 591)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc6f0 @ 15)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   7ffdab24be00 b   self-hosted:218 (277333d92880 @ 294)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:227 (277333dcc560 @ 612)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #7   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6db0 i   resource:///org/gnome/shell/ui/windowPreview.js:369 (fd93d408dd0 @ 12)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6d28 i   resource:///org/gnome/shell/ui/environment.js:153 (277333dcc4c0 @ 98)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #2   560d6a0d6c58 i   resource:///org/gnome/shell/ui/environment.js:242 (277333dcc560 @ 974)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #3   560d6a0d6bc0 i   resource:///org/gnome/shell/ui/environment.js:388 (277333dccd30 @ 23)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #4   560d6a0d6b30 i   resource:///org/gnome/shell/ui/windowPreview.js:365 (fd93d408d80 @ 109)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #5   7ffdab24ca70 b   self-hosted:202 (277333d928d0 @ 272)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #6   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:363 (fd93d408d30 @ 222)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #7   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: == Stack trace for context 0x560d693e04a0 ==
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #0   560d6a0d6a90 i   resource:///org/gnome/shell/ui/windowPreview.js:373 (fd93d408d30 @ 230)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: #1   560d6a0d6a08 i   resource:///org/gnome/shell/ui/windowPreview.js:571 (fd93d40b420 @ 105)
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: message repeated 2 times: [ Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: message repeated 2 times: [ Object St.Label (0x560d697e8cd0), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6a6e8860), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6a6e8860), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: message repeated 4 times: [ Object St.Button (0x560d6a6e8860), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6a6e8860), has been already disposed — impossible to set any property on it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object St.Button (0x560d6a6e8860), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: message repeated 2 times: [ Object St.Button (0x560d6a6e8860), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.]
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: Object .Gjs_ui_windowPreview_WindowPreview (0x560d6a5da690), has been already disposed — impossible to get any property from it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+Jun  1 20:26:54 michelle-labpc gnome-shell[1772]: JS ERROR: TypeError: this.window_container is null#012hideOverlay@resource:///org/gnome/shell/ui/windowPreview.js:373:9#012vfunc_leave_event/this._idleHideOverlayId<@resource:///org/gnome/shell/ui/windowPreview.js:571:26
+Jun  1 20:27:04 michelle-labpc systemd[1546]: app-gnome-virtualbox-18390.scope: Consumed 27.902s CPU time.
+Jun  1 20:27:40 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202740.544497:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:54279 (any)
+Jun  1 20:27:40 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202740.545012:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:49510 (any)
+Jun  1 20:27:40 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202740.545335:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:54476 (any)
+Jun  1 20:27:40 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202740.545698:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:39685 (any)
+Jun  1 20:27:40 michelle-labpc google-chrome.desktop[19290]: [21765:15:0601/202740.546128:ERROR:stun_port.cc(119)] Binding request timed out from [0:0:0:x:x:x:x:x]:45532 (any)
+Jun  1 20:29:27 michelle-labpc systemd[1]: Starting Message of the Day...
+Jun  1 20:29:27 michelle-labpc systemd[1]: motd-news.service: Deactivated successfully.
+Jun  1 20:29:27 michelle-labpc systemd[1]: Finished Message of the Day.
+Jun  1 20:30:01 michelle-labpc CRON[21958]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun  1 20:32:41 michelle-labpc systemd[1]: Started Run anacron jobs.
+Jun  1 20:32:41 michelle-labpc anacron[22020]: Anacron 2.3 started on 2023-06-01
+Jun  1 20:32:41 michelle-labpc anacron[22020]: Normal exit (0 jobs run)
+Jun  1 20:32:41 michelle-labpc systemd[1]: anacron.service: Deactivated successfully.
+Jun  1 20:33:09 michelle-labpc systemd[1546]: app-gnome-google\x2dchrome-19284.scope: Consumed 3min 14.680s CPU time.
+Jun  1 20:33:12 michelle-labpc systemd[1546]: Started Application launched by gnome-shell.
+Jun  1 20:33:12 michelle-labpc google-chrome.desktop[22083]: MESA-INTEL: warning: Haswell Vulkan support is incomplete
+Jun  1 20:33:12 michelle-labpc google-chrome.desktop[22083]: libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+Jun  1 20:33:13 michelle-labpc google-chrome.desktop[22083]: [22077:22077:0601/203313.906188:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+Jun  1 20:33:17 michelle-labpc google-chrome.desktop[22083]: INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
