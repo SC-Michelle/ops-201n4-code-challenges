@@ -12,8 +12,8 @@ gzip -c /var/log/syslog > /var/log/backups/syslog-$timestamp.gz
 gzip -c /var/log/wtmp > /var/log/backups/wtmp-$timestamp.gz
 
 # Clear the contents of the log files
-> /var/log/syslog
-> /var/log/wtmp
+echo "" > /var/log/syslog
+echo "" > /var/log/wtmp
 
 # Get the size of the compressed log files
 syslog_compressed_size=$(stat -c%s /var/log/backups/syslog-$timestamp.gz)
