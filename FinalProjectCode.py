@@ -16,8 +16,10 @@ window.config(bg="#FF1493")
 window.resizable(width=False,height=False)
 window.title('FACT MACHINE')
  
-l1 = tk.Label(window,text="Welcome to the Fact Machine!",font=("Comix Sans MS", 25),fg="White",bg="lightpink")
-l2= tk.Label(window,text="Click on the 'Get new Fact!' button to get a fact!",font=("Comix Sans MS", 15,"bold"),fg="white",bg="#FF1493")
+l1 = tk.Label(window,text="Welcome to the Fact Machine!",font=("Comix Sans MS", 25),fg="White",\
+    bg="lightpink")
+l2= tk.Label(window,text="Click on the 'Get new Fact!' button to get a fact!",font=("Comix Sans MS", \
+    15,"bold"),fg="white",bg="#FF1493")
 btn1 = tk.Button(window,text="Get new Fact!",font=("Comix Sans MS", 15),command=get_fact)
 btn2 = tk.Button(window,text="Exit application",font=("Comix Sans MS", 15),command=exit)
 t1 = tk.Text(window,width=60,height=2,font=("Comix Sans MS",15),state='disabled',bg="lightpink")
